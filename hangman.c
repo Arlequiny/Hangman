@@ -38,6 +38,7 @@ int get_word(char secret[]){
 
 
 
+
 int is_word_guessed(const char secret[], const char letters_guessed[]) {
     int findFlag = 0;
     for (int i = 0; i < strlen(secret); i++) {
@@ -54,6 +55,7 @@ int is_word_guessed(const char secret[], const char letters_guessed[]) {
     }
     return 1;
 }
+
 
 
 
