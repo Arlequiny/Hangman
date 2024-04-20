@@ -22,6 +22,9 @@ int main(){
     printf("%s\n", result);
     // result = "_o_tai_er"
 
+    get_available_letters("arpstxgoieyu", result);
+    printf("%s\n", result);
+    // result = "bcdfhjklmnqvwz"
 
     return 0;
 }
